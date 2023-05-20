@@ -1,0 +1,53 @@
+~ IF YOU WANT TO RESTORE ORIGINAL CONFIG, PAST THE TEXT BELOW INTO PRE-CONFIG CELL IN GAIA.IPYNB FILE ~
+
+
+
+
+
+#OUTPUT IMAGE SIZE
+mpl.rcParams['figure.dpi'] = 500
+
+#CONTOURS COLOUR (RGB)
+R_color = 0
+G_color = 255
+B_color = 154
+
+#GAUSSIAN BLUR COEFFICIENT
+GC1 = GC2 = 1
+
+#TASSELED CAP COEFFICIENTS
+coefficients = [[0.3037, 0.2793, 0.4743, 0.5585, 0.5082, 0.1863],
+                [-0.2848, -0.2435, -0.5436, 0.7243, 0.0840, -0.1800],
+                [0.1509, 0.1973, 0.3279, 0.3406, -0.7112, -0.4572],
+                [-0.8242, 0.0849, 0.4393, -0.0580, 0.2012, -0.2774],
+                [-0.3280, 0.0549, 0.1075, 0.1855, -0.4357, 0.8085],
+                [0.1084, -0.9022, 0.4119, -0.0575, 0.0029, -0.0251]]
+
+#HIGH PASS FILTER KERNEL
+kernel = np.array([[0.0, -1.0, 0.0],
+                   [-1.0, 4.0, -1.0],
+                   [0.0, -1.0, 0.0]])
+
+#SEPIA FILTER CONFIG
+Sepia_Kernel = np.array([[0.272, 0.534, 0.131],[0.349, 0.686, 0.168],[0.393, 0.769, 0.189]])
+ddepth = -1
+
+#TRANSMISSION FILTER CONFIG
+kernel_size = 15
+atmospheric_light = np.percentile(image, 99)
+transmission = 1 - 0.95 * (image.astype(np.float32) / atmospheric_light)
+
+#PANCHROMATIC FILTER KERNEL
+panchromatic_filter = np.array([[0.5, 1, 0.5],
+                                [1, 1, 1],
+                                [0.5, 1, 0.5]])
+
+#CLAHE FILTER CONFIG
+clipLimit = 5.0
+tileGridSize = (8, 8)
+
+#COMPONENT CONNECTIVITY CONFIG
+thresh = 100
+maxval = 255
+thickness = 2
+connectivity = 8
