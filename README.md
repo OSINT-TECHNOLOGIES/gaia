@@ -8,8 +8,8 @@ GAIA - Geospatial &amp; Aerial Images Analyser
 
 ~ First steps to start ~
 
-1) Open PATH.txt file in the directory of GAIA and past here the path to your folder with images which you want to analyze Ex: C:\Users\User\Desktop\GAIA\IMAGES\ 
-! IT IS NECESSARY TO HAVE 2 BACK-SLASHES !
+1) Open PATH.txt file in the directory of GAIA and past here the path to your folder with images which you want to analyze Ex: C:\\Users\\User\\Desktop\\GAIA\\IMAGES\\
+**IT IS NECESSARY TO HAVE 2 BACK-SLASHES**
 
 2) Start program using one of these ways: 
   a) use start.bat file (it’ll start Jupyter Notebook server on localhost:8888 and program will be opened in your browser) 
