@@ -1,29 +1,34 @@
-GAIA - Geospatial &amp; Aerial Images Analyser
-
-~ Welcome to GAIA - Geospatial & Aerial Images Analyser [BETA] ~
+**Welcome to GAIA - Geospatial & Aerial Images Analyser [BETA]**
 
 *This program solution is not final and some details are potentially to be changed*
 
 *New filters may be added to this program soon or later*
 
-~ First steps to start ~
+*Current version - 0.11b*
 
-1) Open PATH.txt file in the directory of GAIA and past here the path to your folder with images which you want to analyze Ex: C:\\Users\\User\\Desktop\\GAIA\\IMAGES\\
-**IT IS NECESSARY TO HAVE 2 BACK-SLASHES**
 
-2) Start program using one of these ways: 
-  a) use start.bat file (it’ll start Jupyter Notebook server on localhost:8888 and program will be opened in your browser) 
-  b) open GAIA.ipynb file in Jupyter Notebook IDE (DataSpell works well and program was tested in it)
+### FIRST STEPS TO START
+
+1) Open PATH.txt file in the directory of GAIA and past here the path to your folder with images which you want to analyze
+   - Ex: C:\\Users\\User\\Desktop\\GAIA\\IMAGES\\
+   - IT IS NECESSARY TO HAVE 2 BACK-SLASHES
+
+3) Start program using one of these ways: 
+   - use start.bat file (it’ll start Jupyter Notebook server on localhost:8888 and program will be opened in your browser)
+   - open GAIA.ipynb file in Jupyter Notebook IDE (DataSpell works well and program was tested in it)
   
-3) Start the program using “Run All” button
+4) Start the program using “Run All” button
 
-4) Enter the name of image which you want to analyze
+5) Enter the name of image which you want to analyze
 
-5) Get the result!
+6) Get the result!
 
-6) If you want to change the way some filter work - go to pre-config cell and change it however you want (original config file is located in the GAIA folder)
+7) If you want to change the way some filter work - go to pre-config cell and change it however you want
+   - original config file is located in the GAIA folder
 
-~ Included image filters ~
+
+
+### INCLUDED IMAGE FILTERS
 
 1) Gray filter
 2) BGR filter
@@ -45,7 +50,9 @@ GAIA - Geospatial &amp; Aerial Images Analyser
 18) SWIR filter
 19) NDVI filter
 20) Tasseled Cap filter
-21) PCA filter
-22) Transmission filter
-23) Panchromatic filter
-24) Inversion filter
+21) Transmission filter
+22) Panchromatic filter
+23) Inversion filter
+24) Laplacian filter (new in 0.11b)
+25) Auto-contrast filter (new in 0.11b)
+26) Sobel filter (new in 0.11b)
