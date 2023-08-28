@@ -1,43 +1,72 @@
-***Welcome to GAIA - Geospatial & Aerial Images Analyser [BETA]***
+<p align="center">
+      <img src="https://i.ibb.co/sH2gqVD/logo.png" width="726">
+</p>
+
+# GAIA - Geospatial & Aerial Images Analyser [BETA]
 
 [!] This program solution is not final and some details are potentially to be changed [!]
 
-[!] New filters may be added to this program soon or later [!]
+[!] More services support and functions will be added soon or later [!]
 
-[!] Current version - 0.2b [!]
-
-There's only 2 steps to start:
-   - Upload an image using the context menu on the left
-
-   - Select filters from the menu on the left
-
-Then you get the result. You can select multiple filters or cancel your selection and everything will be auto-updated
+[!] Current version - 0.3b [!]
 
 
-***INCLUDED IMAGE FILTERS***
+## What is GAIA and how can I use it?
 
-1) Gray filter
-2) BGR filter
-3) HSV filter
-4) Blur filter
-5) Contour filter
-6) High-pass filter
-7) Sepia filter
-8) Denoising filter
-9) Red, Green and Blue filters
-10) Clahe filter
-11) Component connectivity filter
-12) Saturation inversion filter
-13) Saturation filter
-14) Hue filter
-15) RGB filter
-16) Cool filter
-17) LWIR filter
-18) SWIR filter
-19) NDVI filter
-20) Tasseled Cap filter
-21) Transmission filter
-22) Panchromatic filter
-23) Inversion filter
-24) Laplacian filter (new in 0.11b)
-25) Sobel filter (new in 0.11b)
+GAIA is a program created using Mercury Framework (runmercury.com) and Google Earth Engine (earthengine.google.com) special for those who works with geospatial images of Earth or interested in this subject. This program implements the idea of getting as much sources of sattelite and aerial images as it possible in one app. It allows you to get planetary images from different providers using APIs of various services and, what is important, without any coding knowledge and in a pleasant web interface
+
+## GAIA demo screenshots
+
+1) Fires map in certain time period, visualised using NASA FIRMS
+<p align="left">
+      <img src="https://i.ibb.co/0r7L70F/firms-example.png">
+</p>
+
+2) Landsat 9 SWIR image of Europe
+<p align="left">
+      <img src="https://i.ibb.co/K5mQ19m/landsat9swir-example.png">
+</p>
+
+3) All available datasets, dashboard demonstration
+<p align="left">
+      <img src="https://i.ibb.co/vVW6hYK/datasets-example.png">
+</p>
+
+## Supported imagery services
+
+> **Google Earth Engine.** This service combines a multi-petabyte catalog of satellite imagery and geospatial datasets with planetary-scale analysis capabilities. Scientists, researchers, and developers use Earth Engine to detect changes, map trends, and quantify differences on the Earth's surface. Earth Engine is now available for commercial use, and remains free for academic and research use. Support has been added with 0.3b update.
+
+## How to start researching with GAIA
+
+### Using Google Earth Engine
+
+To start researching using Google Earth Engine you need to:
+
+1) Register on Google Earth Engine using your Google account (https://code.earthengine.google.com/register) OR start GAIA using start.bat and press EE registration button
+2) Register a new project with unpaid usage, choose any type of project you want and name it however you want 
+3) Confirm everything you've chosen
+4) Go to https://console.cloud.google.com/iam-admin/serviceaccounts/ and create service account for your project. 
+5) Once service account created, click the menu for that account, then Create key > JSON. Download the JSON key file and put it in GAIA directory
+6) Open GAIA in web interface and click "Create EE credentials file". Once you get "EE credential file was successfully created" message and you see the map - congratulations! From now if you open GAIA you'll have all things prepared and ready to research!
+
+
+## System requirements 
+
+**Software requirements:**
+
+1) OS Windows 10/11 
+2) Python 3.10 and above (lower versions won't guarantee correct and stable work)
+3) PIP package installer
+
+**Installed Python libraries (all of them can be installed using requirements_mng.bat script):**
+
+1) mercury
+2) ee
+3) geemap
+4) datetime
+5) colorama
+6) gcloud
+7) earthengine-api
+8) notebook
+
+**Network:** High-Speed Broadband Internet connection for good experience with datasets downloading
