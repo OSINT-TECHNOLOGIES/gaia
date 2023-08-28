@@ -10,6 +10,9 @@
 
 [!] Current version - 0.3b [!]
 
+<img alt="GitHub (Pre-)Release Date" src="https://img.shields.io/github/release-date-pre/OSINT-TECHNOLOGIES/gaia?label=Last%20Release"> <img alt="GitHub" src="https://img.shields.io/github/license/OSINT-TECHNOLOGIES/gaia?label=Licensed%20with"> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/OSINT-TECHNOLOGIES/gaia?label=Repo%20size">
+
+
 
 ## What is GAIA and how can I use it?
 
