@@ -1,0 +1,12 @@
+Google Earth Engine combines a multi-petabyte catalog of satellite imagery and geospatial datasets with planetary-scale analysis capabilities. Scientists, researchers, and developers use Earth Engine to detect changes, map trends, and quantify differences on the Earth's surface. Earth Engine is now available for commercial use, and remains free for academic and research use. 
+
+Using GAIA you can get and research Google Earth Engine datasets in one place without coding knowledges because of user-friendly Mercury-based UI.
+
+To start researching you need to:
+
+1) Register on Google Earth Engine using your Google account (https://code.earthengine.google.com/register) OR press EE registration button in dashboard
+2) Register a new project with unpaid usage, choose any type of project you want and name it however you want 
+3) Confirm everything you've chosen
+4) Go to https://console.cloud.google.com/iam-admin/serviceaccounts/ and create service account for your project.
+5) Once service account created, click the menu for that account, then Create key > JSON. Download the JSON key file and put it in GAIA directory
+6) Click "Create EE credentials file". Once you get "EE credential file was successfully created" message and you see the map - congratulations! From now if you open GAIA you'll have all things prepared and ready to research!
