@@ -46,9 +46,9 @@ GAIA is a program created using Mercury Framework (runmercury.com) and Google Ea
 
 ## How to start researching with GAIA
 
-**You should start GAIA web-interface using start.bat file. Just click on it and GAIA window will open in your default browser. Information below will give you instructions on how to start working with GAIA-integrated services** 
+**The very first step on your way to start researching using GAIA is integrated services connection. Instructions below will help you to properly configure and connect them to GAIA.**
 
-### Using Google Earth Engine
+### Connecting Google Earth Engine
 
 To start researching using Google Earth Engine you need to:
 
@@ -59,6 +59,7 @@ To start researching using Google Earth Engine you need to:
 5) Once service account created, click the menu for that account, then Create key > JSON. Download the JSON key file and put it in GAIA directory
 6) Open GAIA in web interface and click "Create EE credentials file". Once you get "EE credential file was successfully created" message and you see the map - congratulations! From now if you open GAIA you'll have all things prepared and ready to research!
 
+**After all needed services are connected, you can start your research. In order to do this you need to start GAIA web-interface using start.bat script which will open welcome window in your default browser.**
 
 ## System requirements 
 
