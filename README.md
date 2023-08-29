@@ -10,7 +10,12 @@
 
 [!] Current version - 0.3b [!]
 
-<img alt="GitHub (Pre-)Release Date" src="https://img.shields.io/github/release-date-pre/OSINT-TECHNOLOGIES/gaia?label=Last%20Release"> <img alt="GitHub" src="https://img.shields.io/github/license/OSINT-TECHNOLOGIES/gaia?label=Licensed%20with"> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/OSINT-TECHNOLOGIES/gaia?label=Repo%20size">
+<img alt="GitHub (Pre-)Release Date" src="https://img.shields.io/github/release-date-pre/OSINT-TECHNOLOGIES/gaia?label=Last%20Release&labelColor=E98484&color=446C6C"> <img alt="GitHub" src="https://img.shields.io/github/license/OSINT-TECHNOLOGIES/gaia?label=Licensed%20with&labelColor=E98484&color=446C6C"> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/OSINT-TECHNOLOGIES/gaia?label=Repo%20size&labelColor=E98484&color=446C6C">
+
+<img alt="Static Badge" src="https://img.shields.io/badge/Created_with-Python-yellow?logoColor=blue&labelColor=blue"> <img alt="Static Badge" src="https://img.shields.io/badge/Created_with-Jupyter_Notebook-orange?logoColor=blue&labelColor=grey"> <img alt="Static Badge" src="https://img.shields.io/badge/Created_with-MLJAR%20Mercury-blue?logoColor=blue&labelColor=white">
+
+<img alt="Static Badge" src="https://img.shields.io/badge/Google_EE-integrated-19830E?labelColor=0E4183&link=https%3A%2F%2Fearthengine.google.com%2F">
+
 
 
 
