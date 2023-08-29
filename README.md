@@ -41,7 +41,7 @@ GAIA is a program created using Mercury Framework (runmercury.com) and Google Ea
 
 ## How to start researching with GAIA
 
-You should start GAIA web-interface using start.bat file. Just click on it and GAIA window will open in your default browser
+**You should start GAIA web-interface using start.bat file. Just click on it and GAIA window will open in your default browser. Information below will give you instructions on how to start working with GAIA-integrated services** 
 
 ### Using Google Earth Engine
 
