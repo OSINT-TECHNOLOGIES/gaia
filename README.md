@@ -16,7 +16,7 @@
 
 <img alt="Static Badge" src="https://img.shields.io/badge/Google_EE-integrated-19830E?labelColor=0E4183&link=https%3A%2F%2Fearthengine.google.com%2F">
 
-
+**If you want to contact the developer about GAIA - write here:** osint.technologies@gmail.com
 
 
 ## What is GAIA and how can I use it?
