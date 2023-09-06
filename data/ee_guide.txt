@@ -9,4 +9,4 @@ To start researching you need to:
 3) Confirm everything you've chosen
 4) Go to https://console.cloud.google.com/iam-admin/serviceaccounts/ and create service account for your project.
 5) Once service account created, click the menu for that account, then Create key > JSON. Download the JSON key file and put it in GAIA directory
-6) Click "Create EE credentials file". Once you get "EE credential file was successfully created" message and you see the map - congratulations! From now if you open GAIA you'll have all things prepared and ready to research!
+6) That's it! If you don't see any errors and see the map - congratulations, you've just finished Google EE connection procedure. Now you can start using GAIA with Google EE
