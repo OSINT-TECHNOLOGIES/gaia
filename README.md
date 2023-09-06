@@ -8,7 +8,7 @@
 
 [!] More services support and functions will be added soon or later [!]
 
-[!] Current version - 0.3b [!]
+[!] Current version - 0.31b [!]
 
 <img alt="GitHub (Pre-)Release Date" src="https://img.shields.io/github/release-date-pre/OSINT-TECHNOLOGIES/gaia?label=Last%20Release&labelColor=E98484&color=446C6C"> <img alt="GitHub" src="https://img.shields.io/github/license/OSINT-TECHNOLOGIES/gaia?label=Licensed%20with&labelColor=E98484&color=446C6C"> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/OSINT-TECHNOLOGIES/gaia?label=Repo%20size&labelColor=E98484&color=446C6C">
 
@@ -57,7 +57,7 @@ To start researching using Google Earth Engine you need to:
 3) Confirm everything you've chosen
 4) Go to https://console.cloud.google.com/iam-admin/serviceaccounts/ and create service account for your project. 
 5) Once service account created, click the menu for that account, then Create key > JSON. Download the JSON key file and put it in GAIA directory
-6) Open GAIA in web interface and click "Create EE credentials file". Once you get "EE credential file was successfully created" message and you see the map - congratulations! From now if you open GAIA you'll have all things prepared and ready to research!
+6) Open GAIA in web interface and if you don't see any errors and see the map - congratulations, you've just finished Google EE connection procedure. Now you can start using GAIA with Google EE
 
 **After all needed services are connected, you can start your research. In order to do this you need to start GAIA web-interface using start.bat script which will open welcome window in your default browser.**
 
