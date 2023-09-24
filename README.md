@@ -46,7 +46,9 @@ GAIA is a program created using Mercury Framework (runmercury.com) and Google Ea
 
 ## How to start researching with GAIA
 
-**The very first step on your way to start researching using GAIA is integrated services connection. Instructions below will help you to properly configure and connect them to GAIA.**
+**The very first step on your way to start researching using GAIA is installing necessary requirements. You can install them using requirements_mng.bat script**
+
+**Your second step is integrated services connection. Instructions below will help you to properly configure and connect them to GAIA**
 
 ### Connecting Google Earth Engine
 
