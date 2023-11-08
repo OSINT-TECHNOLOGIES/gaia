@@ -14,7 +14,7 @@
 
 <img alt="Static Badge" src="https://img.shields.io/badge/Created_with-Python-yellow?logoColor=blue&labelColor=blue"> <img alt="Static Badge" src="https://img.shields.io/badge/Created_with-Jupyter_Notebook-orange?logoColor=blue&labelColor=grey"> <img alt="Static Badge" src="https://img.shields.io/badge/Created_with-MLJAR%20Mercury-blue?logoColor=blue&labelColor=white">
 
-<img alt="Static Badge" src="https://img.shields.io/badge/Google_EE-integrated-19830E?labelColor=0E4183&link=https%3A%2F%2Fearthengine.google.com%2F"> <img alt="Static Badge" src="https://img.shields.io/badge/OpenStreetMap-integrated-19830E?labelColor=0E4183">
+<img alt="Static Badge" src="https://img.shields.io/badge/Google_EE-integrated-19830E?labelColor=0E4183&link=https%3A%2F%2Fearthengine.google.com%2F"> <img alt="Static Badge" src="https://img.shields.io/badge/OpenStreetMap-integrated-19830E?labelColor=0E4183&link=https%3A%2F%2Fearthengine.google.com%2F">
 
 
 **If you want to contact the developer about GAIA - write here:** osint.technologies@gmail.com
