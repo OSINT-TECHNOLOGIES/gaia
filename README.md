@@ -26,20 +26,17 @@ GAIA is a program created using Mercury Framework ([runmercury.com](https://gith
 
 ## GAIA demo screenshots
 
-1) Fires map in certain time period, visualised using NASA FIRMS
-<p align="left">
-      <img src="https://i.ibb.co/0r7L70F/firms-example.png">
-</p>
+1) Fires map in South Africa, visualised using NASA FIRMS
+![firms](https://github.com/OSINT-TECHNOLOGIES/gaia/assets/77023667/b56e5691-e99b-407c-bdc6-fc2dd8fb157c)
 
-2) Landsat 9 SWIR image of Europe
-<p align="left">
-      <img src="https://i.ibb.co/K5mQ19m/landsat9swir-example.png">
-</p>
+2) North Gaza visualised using Sentinel-2 MSI during October 2023 conflict
+![north_gaza](https://github.com/OSINT-TECHNOLOGIES/gaia/assets/77023667/ccbd4d38-3da6-454c-ac8d-e16f4eb2b287)
 
-3) All available datasets, dashboard demonstration
-<p align="left">
-      <img src="https://i.ibb.co/vVW6hYK/datasets-example.png">
-</p>
+3) Google Earth Engine integrated knowledge base
+![knowledge_base](https://github.com/OSINT-TECHNOLOGIES/gaia/assets/77023667/13845139-f6f4-4e44-b682-757259223209)
+
+4) OpenStreetMap GeoJSON file processing
+![osmgeojson](https://github.com/OSINT-TECHNOLOGIES/gaia/assets/77023667/4f7cd31f-71bf-4337-acfb-41ed1c630897)
 
 ## Supported imagery and map services
 
