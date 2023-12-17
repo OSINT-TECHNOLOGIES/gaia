@@ -26,7 +26,7 @@ GAIA is a program created using Mercury Framework ([runmercury.com](https://gith
 
 ## GAIA demo screenshots
 
-1) Fires map in South Africa, visualised using NASA FIRMS
+1) Fires map in South America, visualised using NASA FIRMS
 ![firms](https://github.com/OSINT-TECHNOLOGIES/gaia/assets/77023667/b56e5691-e99b-407c-bdc6-fc2dd8fb157c)
 
 2) North Gaza visualised using Sentinel-2 MSI during October 2023 conflict
