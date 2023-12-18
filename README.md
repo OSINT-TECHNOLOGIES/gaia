@@ -1,5 +1,5 @@
 <p align="center">
-      <img src="https://i.ibb.co/sH2gqVD/logo.png" width="726">
+  <img src="https://github.com/OSINT-TECHNOLOGIES/gaia/assets/77023667/fceb701e-9bc0-4b83-b23e-fde301e4b703">
 </p>
 
 # GAIA - Geospatial & Aerial Images Analyser [BETA]
