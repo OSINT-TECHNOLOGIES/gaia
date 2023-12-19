@@ -19,7 +19,7 @@ def ds_info_read():
                 mr.Markdown(text=line)
     except FileNotFoundError as error:
         logger.error(error)
-        print(Fore.RED + '[File/directory missing error] -{}'.format(str(error)[9:]))
+        print(Fore.RED + '[GEE file/directory missing error] -{}'.format(str(error)))
 
 
 def ee_guide_read():
@@ -32,4 +32,16 @@ def ee_guide_read():
                 mr.Markdown(text=line)
     except FileNotFoundError as error:
         logger.error(error)
-        print(Fore.RED + '[File/directory missing error] -{}'.format(str(error)[9:]))
+        print(Fore.RED + '[GEE file/directory missing error] -{}'.format(str(error)))
+
+def osm_guide_read():
+    try:
+        with open("osm/osm_guide.txt", "r") as guide:
+            mr.Markdown(text = "**HOW TO START WORKING WITH OPENSTREETMAP**")
+            line = guide.readline()
+            while line:
+                line = guide.readline()
+                mr.Markdown(text=line)
+    except FileNotFoundError as error:
+        logger.error(error)
+        print(Fore.RED + '[OSM file/directory missing error] -{}'.format(str(error)))
