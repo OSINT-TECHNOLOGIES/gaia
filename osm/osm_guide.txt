@@ -1,0 +1,3 @@
+OSM is a collaborative project for world mapping using data from various sources and volunteers. In GAIA you can get, use and explore different OSM-provided maps with different additional functions. 
+
+Basically you don't need to do any things out of GAIA to start researching using OpenStreetMap. You can just select the OpenStreetMap source and start researching.
