@@ -1,6 +1,7 @@
 import os
 import re
 import logging
+from colorama import Fore
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
@@ -27,7 +28,7 @@ try:
             if match:
                 service_acc_mail = match.group()
                 break
-except NameError as error:
+except (NameError, FileNotFoundError) as error:
+    print(Fore.RED + '[GEE credentials file error] -{}'.format(str(error)))
     logger.error(error)
     print('')
-
