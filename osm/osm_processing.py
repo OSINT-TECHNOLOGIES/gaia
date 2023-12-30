@@ -15,7 +15,7 @@ def sn_analysis(place_long, place_lat):
     ox.plot_graph(G)
 
 def building_analysis(place_long, place_lat):
-    gdf = ox.geometries_from_point((float(place_lat), float(place_long)), tags={'building': True})
+    gdf = ox.features_from_point((float(place_lat), float(place_long)), tags={'building': True})
     gdf.plot()
 
 def additional_datasets(map_folium):
