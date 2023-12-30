@@ -2,6 +2,7 @@
   <img src="https://github.com/OSINT-TECHNOLOGIES/gaia/assets/77023667/fceb701e-9bc0-4b83-b23e-fde301e4b703">
 </p>
 
+<!-- TOC --><a name="gaia-geospatial-aerial-images-analyser-beta"></a>
 # GAIA - Geospatial & Aerial Images Analyser [BETA]
 
 [!] This program solution is not final and some details are potentially to be changed [!]
@@ -19,11 +20,26 @@
 
 **If you want to contact the developer about GAIA - write here:** osint.technologies@gmail.com
 
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+**README Table of Contents:**
 
+- [GAIA - Geospatial & Aerial Images Analyser [BETA]](#gaia-geospatial-aerial-images-analyser-beta)
+   * [What is GAIA and how can I use it?](#what-is-gaia-and-how-can-i-use-it)
+   * [GAIA demo screenshots](#gaia-demo-screenshots)
+   * [Supported imagery and map services](#supported-imagery-and-map-services)
+   * [How to start researching with GAIA](#how-to-start-researching-with-gaia)
+      + [Connecting Google Earth Engine](#connecting-google-earth-engine)
+      + [Connecting OpenStreetMap](#connecting-openstreetmap)
+   * [System requirements ](#system-requirements)
+
+<!-- TOC end -->
+
+<!-- TOC --><a name="what-is-gaia-and-how-can-i-use-it"></a>
 ## What is GAIA and how can I use it?
 
 GAIA is a program created using Mercury Framework ([runmercury.com](https://github.com/mljar/mercury)), Google Earth Engine ([earthengine.google.com](https://earthengine.google.com/)) and OpenStreetMap ([openstreetmap.org](https://www.openstreetmap.org)) specially for those who works with geospatial images of Earth or interested in this subject. This program implements the idea of getting as much sources of sattelite and aerial images as it possible in one app. It allows you to get planetary images from different providers using APIs of various services and, what is important, without any coding knowledge and in a pleasant web interface
 
+<!-- TOC --><a name="gaia-demo-screenshots"></a>
 ## GAIA demo screenshots
 
 1) Fires map in South America, visualised using NASA FIRMS
@@ -38,18 +54,21 @@ GAIA is a program created using Mercury Framework ([runmercury.com](https://gith
 4) OpenStreetMap GeoJSON file processing
 ![osmgeojson](https://github.com/OSINT-TECHNOLOGIES/gaia/assets/77023667/4f7cd31f-71bf-4337-acfb-41ed1c630897)
 
+<!-- TOC --><a name="supported-imagery-and-map-services"></a>
 ## Supported imagery and map services
 
 > **Google Earth Engine.** This service combines a multi-petabyte catalog of satellite imagery and geospatial datasets with planetary-scale analysis capabilities. Scientists, researchers, and developers use Earth Engine to detect changes, map trends, and quantify differences on the Earth's surface. Earth Engine is now available for commercial use, and remains free for academic and research use. Support has been added with 0.3b update.
 
 > **OpenStreetMap.** OSM is a collaborative project for world mapping using data from various sources and volunteers. In GAIA you can get, use and explore different OSM-provided maps with different additional functions. Support has been added with 0.4b update.
 
+<!-- TOC --><a name="how-to-start-researching-with-gaia"></a>
 ## How to start researching with GAIA
 
 **The very first step on your way to start researching using GAIA is installing necessary requirements. You can install them using setup.py script**
 
 **Your second step is integrated services connection. Instructions below will help you to properly configure and connect them to GAIA**
 
+<!-- TOC --><a name="connecting-google-earth-engine"></a>
 ### Connecting Google Earth Engine
 
 To start researching using Google Earth Engine you need to:
@@ -61,6 +80,7 @@ To start researching using Google Earth Engine you need to:
 5) Once service account created, click the menu for that account, then Create key > JSON. Download the JSON key file and put it in GAIA directory
 6) Open GAIA in web interface and if you don't see any errors and see the map - congratulations, you've just finished Google EE connection procedure. Now you can start using GAIA with Google EE
 
+<!-- TOC --><a name="connecting-openstreetmap"></a>
 ### Connecting OpenStreetMap
 
 Basically you don't need to do any things out of GAIA to start researching using OpenStreetMap. You need only to install new libraries from system requirements and you'll be ready to start your research using OSM.
@@ -68,6 +88,7 @@ Basically you don't need to do any things out of GAIA to start researching using
 
 **After all needed services are connected, you can start your research. In order to do this you need to start GAIA web-interface using start.bat script which will open welcome window in your default browser.**
 
+<!-- TOC --><a name="system-requirements"></a>
 ## System requirements 
 
 **Software requirements:**
