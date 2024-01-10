@@ -1,22 +1,4 @@
-import matplotlib.pyplot as plt
-import osmnx as ox
-import contextily as cx
 import folium
-
-def map_plotting(map_size, place_long, place_lat, place_delta):
-    west, south, east, north = (float(place_long), float(place_lat) - float(place_delta), float(place_long) + float(place_delta), float(place_lat))
-    im, bbox = cx.bounds2img(west, south, east, north, ll=True, source=cx.providers.OpenStreetMap.Mapnik)
-    plt.figure(figsize=(map_size.value, map_size.value))
-    plt.imshow(im)
-    plt.show()
-
-def sn_analysis(place_long, place_lat):
-    G = ox.graph_from_point((float(place_lat), float(place_long)), dist=100000, network_type='drive')
-    ox.plot_graph(G)
-
-def building_analysis(place_long, place_lat):
-    gdf = ox.features_from_point((float(place_lat), float(place_long)), tags={'building': True})
-    gdf.plot()
 
 def additional_datasets(map_folium):
     political_countries_url = (
