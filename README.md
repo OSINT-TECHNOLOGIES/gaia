@@ -109,8 +109,7 @@ Basically you don't need to do any things out of GAIA to start researching using
 8) contextily==1.4.0
 9) folium==0.14.0
 10) future==0.18.3
-11) geemap==0.24.4
-12) geocoder==1.38.1
-13) ipyleaflet==0.17.3
+11) geemap==0.30.0
+12) ipyleaflet==0.17.3
 
 **Network:** High-Speed Broadband Internet connection for good experience with datasets downloading
