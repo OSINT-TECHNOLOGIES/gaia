@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='GAIA',
-    version='0.4b',
+    version='0.51b',
     author='OSINT-TECHNOLOGIES',
     author_email='osint.technologies@gmail.com',
     description='Geospatial & Aerial Images Analyser',
@@ -19,8 +19,7 @@ setup(
         'contextily==1.4.0',
         'folium==0.14.0',
         'future==0.18.3',
-        'geemap==0.24.4',
-        'geocoder==1.38.1',
+        'geemap==0.30.0',
         'ipyleaflet==0.17.3'
     ],
 )
