@@ -9,7 +9,7 @@
 
 [!] More services support and functions will be added soon or later [!]
 
-[!] Current version - 0.51b [!]
+[!] Current version - 0.6b [!]
 
 <img alt="GitHub (Pre-)Release Date" src="https://img.shields.io/github/release-date-pre/OSINT-TECHNOLOGIES/gaia?label=Last%20Release&labelColor=E98484&color=446C6C"> <img alt="GitHub" src="https://img.shields.io/github/license/OSINT-TECHNOLOGIES/gaia?label=Licensed%20with&labelColor=E98484&color=446C6C"> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/OSINT-TECHNOLOGIES/gaia?label=Repo%20size&labelColor=E98484&color=446C6C">
 
@@ -109,7 +109,7 @@ Basically you don't need to do any things out of GAIA to start researching using
 8) contextily==1.4.0
 9) folium==0.14.0
 10) future==0.18.3
-11) geemap==0.30.0
+11) eefolium==0.2.0
 12) ipyleaflet==0.17.3
 
 **Network:** High-Speed Broadband Internet connection for good experience with datasets downloading
