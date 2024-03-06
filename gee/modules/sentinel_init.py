@@ -22,7 +22,6 @@ class SentinelInitialization:
             'max': 3000,
             'gamma': 1.4,
         }
-
         self.m.addLayer(composite_sr, vis_sen2sr, 'Sentinel 2 MSI SR')
 
     def sen2msitoa_init(self):
@@ -39,7 +38,6 @@ class SentinelInitialization:
             'max': 3000,
             'gamma': 1.4,
         }
-
         self.m.addLayer(composite_toa, vis_sen2toa, 'Sentinel 2 MSI TOA')
 
     def sen5pc_init(self):
@@ -49,5 +47,4 @@ class SentinelInitialization:
             max: 0.95,
             'palette': ['black', 'blue', 'purple', 'cyan', 'green', 'yellow', 'red']
         }
-
         self.m.addLayer(sen5pc, vis_sen5pc, 'Sentinel 5P Cloud')
