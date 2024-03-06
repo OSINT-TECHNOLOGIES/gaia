@@ -99,17 +99,16 @@ Basically you don't need to do any things out of GAIA to start researching using
 
 **Installed Python libraries (all of them can be installed using setup.py script):**
 
-1) DateTime==5.2
-2) ee==0.2
-3) earthengine-api==0.1.367
-4) mercury==2.3.1
-5) colorama==0.4.6
-6) matplotlib==3.6.2
-7) osmnx==1.7.0
-8) contextily==1.4.0
-9) folium==0.14.0
-10) future==0.18.3
-11) eefolium==0.2.0
-12) ipyleaflet==0.17.3
+1) ee==0.2
+2) earthengine-api==0.1.392
+3) mercury==2.3.7
+4) colorama==0.4.6
+5) matplotlib==3.6.2
+6) osmnx==1.7.0
+7) contextily==1.4.0
+8) folium==0.16.0
+9) future==0.18.3
+10) eefolium==0.2.0
+11) ipyleaflet==0.18.2
 
 **Network:** High-Speed Broadband Internet connection for good experience with datasets downloading
