@@ -12,7 +12,6 @@ class OthersInitialization:
             min: 325.0,
             max: 400.0,
         }
-
         self.m.addLayer(firms, vis_firms, "NASA FIRMS")
 
     def alostd_init(self):
@@ -22,5 +21,4 @@ class OthersInitialization:
             min: 0.0,
             max: 1.0,
         }
-
         self.m.addLayer(alos_topodiv, vis_alos_td, "ALOS TD")
