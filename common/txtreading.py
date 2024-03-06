@@ -24,19 +24,7 @@ def ds_info_read():
 def ee_guide_read():
     try:
         with open("common/ee_guide.txt", "r") as guide:
-            mr.Markdown(text = "**HOW TO START WORKING WITH GOOGLE EARTH ENGINE**")
-            line = guide.readline()
-            while line:
-                line = guide.readline()
-                mr.Markdown(text=line)
-    except FileNotFoundError as error:
-        logger.error(error)
-        print(Fore.RED + '[File/directory missing error] -{}'.format(str(error)))
-
-def osm_guide_read():
-    try:
-        with open("common/osm_guide.txt", "r") as guide:
-            mr.Markdown(text = "**HOW TO START WORKING WITH OPENSTREETMAP**")
+            mr.Markdown(text = "**HOW TO START WORKING WITH COMBINED CARTOGRAPHY AND SATELLITE IMAGERY MODULE**")
             line = guide.readline()
             while line:
                 line = guide.readline()
