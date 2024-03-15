@@ -1,4 +1,8 @@
 import ee
+import txtreading as txtr
+import sys
+
+sys.path.insert(0, 'common//') # common files
 
 class OthersInitialization:
     def __init__(self, m, date_one, date_two):
@@ -9,8 +13,8 @@ class OthersInitialization:
     def firms_init(self):
         firms = ee.ImageCollection("FIRMS").filterDate(str(self.date_one.value), str(self.date_two.value))
         vis_firms = {
-            min: 325.0,
-            max: 400.0,
+            min: txtr.get_min_value('NASA FIRMS'),
+            max: txtr.get_max_value('NASA FIRMS'),
         }
         self.m.addLayer(firms, vis_firms, "NASA FIRMS")
 
@@ -18,7 +22,7 @@ class OthersInitialization:
         alos_td = ee.Image("CSP/ERGo/1_0/Global/ALOS_topoDiversity")
         alos_topodiv = alos_td.select('constant')
         vis_alos_td = {
-            min: 0.0,
-            max: 1.0,
+            min: txtr.get_min_value('ALOS TD'),
+            max: txtr.get_max_value('ALOS TD'),
         }
         self.m.addLayer(alos_topodiv, vis_alos_td, "ALOS TD")
