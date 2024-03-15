@@ -32,3 +32,45 @@ def ee_guide_read():
     except FileNotFoundError as error:
         logger.error(error)
         print(Fore.RED + '[File/directory missing error] -{}'.format(str(error)))
+
+def settings_read():
+    try:
+        with open("common//settings.txt", "r") as guide:
+            mr.Markdown(text = "**CURRENT SETTINGS**")
+            line = guide.readline()
+            while line:
+                line = guide.readline()
+                mr.Markdown(text=line)
+    except FileNotFoundError as error:
+        logger.error(error)
+        print(Fore.RED + '[File/directory missing error] -{}'.format(str(error)))
+
+def get_min_value(dataset_name):
+    with open("common//settings.txt", 'r') as file:
+        lines = file.readlines()
+
+    start_index = lines.index(f"*{dataset_name}*\n")
+    min_line = lines[start_index + 2]
+    min_value = float(min_line.split(":")[1].strip())
+
+    return min_value
+
+def get_max_value(dataset_name):
+    with open("common//settings.txt", 'r') as file:
+        lines = file.readlines()
+
+    start_index = lines.index(f"*{dataset_name}*\n")
+    max_line = lines[start_index + 3]
+    max_value = float(max_line.split(":")[1].strip())
+
+    return max_value
+
+def get_gamma_value(dataset_name):
+    with open("common//settings.txt", 'r') as file:
+        lines = file.readlines()
+
+    start_index = lines.index(f"*{dataset_name}*\n")
+    max_line = lines[start_index + 4]
+    max_value = float(max_line.split(":")[1].strip())
+
+    return max_value
