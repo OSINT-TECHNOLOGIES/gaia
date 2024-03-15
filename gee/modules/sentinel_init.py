@@ -1,5 +1,9 @@
 import ee
 import mercury as mr
+import txtreading as txtr
+import sys
+
+sys.path.insert(0, 'common//') # common files
 
 class SentinelInitialization:
     def __init__(self, m, date_one, date_two, max_cloud_covering):
@@ -18,9 +22,9 @@ class SentinelInitialization:
 
         vis_sen2sr = {
             'bands': self.sen2msibands.value,
-            'min': 0,
-            'max': 3000,
-            'gamma': 1.4,
+            'min': txtr.get_min_value('SENTINEL 2 MSI SR'),
+            'max': txtr.get_max_value('SENTINEL 2 MSI SR'),
+            'gamma': txtr.get_gamma_value('SENTINEL 2 MSI SR'),
         }
         self.m.addLayer(composite_sr, vis_sen2sr, 'Sentinel 2 MSI SR')
 
@@ -34,17 +38,17 @@ class SentinelInitialization:
 
         vis_sen2toa = {
             'bands': self.sen2msibands.value,
-            'min': 0,
-            'max': 3000,
-            'gamma': 1.4,
+            'min': txtr.get_min_value('SENTINEL 2 MSI TOA'),
+            'max': txtr.get_max_value('SENTINEL 2 MSI TOA'),
+            'gamma': txtr.get_gamma_value('SENTINEL 2 MSI TOA'),
         }
         self.m.addLayer(composite_toa, vis_sen2toa, 'Sentinel 2 MSI TOA')
 
     def sen5pc_init(self):
         sen5pc = ee.ImageCollection("COPERNICUS/S5P/OFFL/L3_CLOUD").select('cloud_fraction').filterDate(str(self.date_one.value),str(self.date_two.value))
         vis_sen5pc = {
-            min: 0,
-            max: 0.95,
+            min: txtr.get_min_value('SENTINEL 5P CLOUD'),
+            max: txtr.get_max_value('SENTINEL 5P CLOUD'),
             'palette': ['black', 'blue', 'purple', 'cyan', 'green', 'yellow', 'red']
         }
         self.m.addLayer(sen5pc, vis_sen5pc, 'Sentinel 5P Cloud')
