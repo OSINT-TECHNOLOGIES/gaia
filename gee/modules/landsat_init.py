@@ -1,5 +1,9 @@
 import ee
 import mercury as mr
+import txtreading as txtr
+import sys
+
+sys.path.insert(0, 'common//') # common files
 
 class LandsatInitialization:
     def __init__(self, m, date_one, date_two, max_cloud_covering):
@@ -25,8 +29,8 @@ class LandsatInitialization:
             ee.Filter.lte('CLOUD_COVER', self.max_cloud_covering.value))
         vis_ls8 = {
             'bands': self.ls8bands.value,
-            'min': 0.0,
-            'max': 0.4,
+            'min': txtr.get_min_value('LANDSAT 8 TOA'),
+            'max': txtr.get_max_value('LANDSAT 8 TOA'),
         }
         self.m.addLayer(ls8, vis_ls8, 'LandSat 8 TOA')
 
@@ -38,8 +42,8 @@ class LandsatInitialization:
             ee.Filter.lte('CLOUD_COVER', self.max_cloud_covering.value))
         ls8raw_tc = ls8raw.select(self.ls8bands.value)
         vis_ls8raw_tc = {
-            min: 0.0,
-            max: 30000.0,
+            min: txtr.get_min_value('LANDSAT 8 RAW'),
+            max: txtr.get_max_value('LANDSAT 8 RAW'),
         }
         self.m.addLayer(ls8raw_tc, vis_ls8raw_tc, "LandSat 8 RAW")
 
@@ -53,8 +57,8 @@ class LandsatInitialization:
             ee.Filter.lte('CLOUD_COVER', self.max_cloud_covering.value))
         vis_ls8sr = {
             'bands': self.ls8srbands.value,
-            min: 0.0,
-            max: 0.3,
+            min: txtr.get_min_value('LANDSAT 8 SR'),
+            max: txtr.get_max_value('LANDSAT 8 SR'),
         }
         self.m.addLayer(ls8sr, vis_ls8sr, 'LandSat 8 SR')
 
@@ -76,8 +80,8 @@ class LandsatInitialization:
 
         vis_ls9 = {
             'bands': self.ls9bands.value,
-            'min': 0.0,
-            'max': 0.3,
+            'min': txtr.get_min_value('LANDSAT 9 SR'),
+            'max': txtr.get_max_value('LANDSAT 9 SR'),
         }
         self.m.addLayer(ls9, vis_ls9, 'LandSat 9 SR')
 
@@ -90,8 +94,8 @@ class LandsatInitialization:
             ee.Filter.lte('CLOUD_COVER', self.max_cloud_covering.value))
         ls9raw_tc = ls9raw.select(self.ls9rawbands.value)
         vis_ls9raw_tc = {
-            'min': 0.0,
-            'max': 30000.0,
+            'min': txtr.get_min_value('LANDSAT 9 RAW'),
+            'max': txtr.get_max_value('LANDSAT 9 RAW'),
         }
         self.m.addLayer(ls9raw_tc, vis_ls9raw_tc, 'LandSat 9 RAW')
 
@@ -104,7 +108,7 @@ class LandsatInitialization:
             ee.Filter.lte('CLOUD_COVER', self.max_cloud_covering.value))
         ls9toa_tc = ls9toa.select(self.ls9rawbands.value)
         vis_ls9toa_tc = {
-            min: 0.0,
-            max: 0.4,
+            min: txtr.get_min_value('LANDSAT 9 TOA'),
+            max: txtr.get_max_value('LANDSAT 9 TOA'),
         }
         self.m.addLayer(ls9toa_tc, vis_ls9toa_tc, 'LandSat 9 TOA')
