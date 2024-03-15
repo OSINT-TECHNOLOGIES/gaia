@@ -1,0 +1,76 @@
+
+[DATASETS SETTINGS]
+
+*LANDSAT 8 RAW*
+
+min: 0.0
+max: 30000.0
+
+*LANDSAT 8 SR*
+
+min: 0.0
+max: 0.3
+
+*LANDSAT 8 TOA*
+
+min: 0.0
+max: 0.4
+
+*LANDSAT 9 RAW*
+
+min: 0.0
+max: 30000.0
+
+*LANDSAT 9 TOA*
+
+min: 0.0
+max: 0.4
+
+*LANDSAT 9 SR*
+
+min: 0.0
+max: 0.3
+
+*SENTINEL 2 MSI TOA*
+
+min: 0
+max: 3000
+gamma: 1.4
+
+*SENTINEL 2 MSI SR*
+
+min: 0
+max: 3000
+gamma: 1.4
+
+*SENTINEL 5P CLOUD*
+
+min: 0
+max: 0.95
+palette: ['black', 'blue', 'purple', 'cyan', 'green', 'yellow', 'red']
+
+*MODIS SNOWCOVER*
+
+min: 0.0
+max: 100.0
+palette: ['black', '0dffff', '0524ff', 'ffffff']
+
+*MODIS TSR*
+
+min: -100.0
+max: 8000.0
+
+*MODIS TTA&FD*
+
+min: 0.0
+max: 6000.0
+
+*ALOS TD*
+
+min: 0.0
+max: 1.0
+
+*NASA FIRMS*
+
+min: 0.0
+max: 1.0
