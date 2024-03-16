@@ -5,20 +5,22 @@
 <!-- TOC --><a name="gaia-geospatial-aerial-images-analyser-beta"></a>
 # GAIA - Geospatial & Aerial Images Analyser [BETA]
 
-[!] This program solution is not final and some details are potentially to be changed [!]
+> [!NOTE]
+> Please note that this program solution is currently in BETA stage and some details are potentially to be changed, more functionality may be added soon or later.
+>
+> Current version: 0.62b
 
-[!] More services support and functions will be added soon or later [!]
+> [!TIP]
+> You can find some useful info about GAIA aspects in wiki: https://github.com/OSINT-TECHNOLOGIES/gaia/wiki
 
-[!] Current version - 0.62b [!]
+> [!TIP]
+> You can contact GAIA developer by sending message on the following e-mail: osint.technologies@gmail.com
 
 <img alt="GitHub (Pre-)Release Date" src="https://img.shields.io/github/release-date-pre/OSINT-TECHNOLOGIES/gaia?label=Last%20Release&labelColor=E98484&color=446C6C"> <img alt="GitHub" src="https://img.shields.io/github/license/OSINT-TECHNOLOGIES/gaia?label=Licensed%20with&labelColor=E98484&color=446C6C"> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/OSINT-TECHNOLOGIES/gaia?label=Repo%20size&labelColor=E98484&color=446C6C">
 
 <img alt="Static Badge" src="https://img.shields.io/badge/Created_with-Python-yellow?logoColor=blue&labelColor=blue"> <img alt="Static Badge" src="https://img.shields.io/badge/Created_with-Jupyter_Notebook-orange?logoColor=blue&labelColor=grey"> <img alt="Static Badge" src="https://img.shields.io/badge/Created_with-MLJAR%20Mercury-blue?logoColor=blue&labelColor=white">
 
 <img alt="Static Badge" src="https://img.shields.io/badge/Google_EE-integrated-19830E?labelColor=0E4183&link=https%3A%2F%2Fearthengine.google.com%2F"> <img alt="Static Badge" src="https://img.shields.io/badge/OpenStreetMap-integrated-19830E?labelColor=0E4183&link=https%3A%2F%2Fearthengine.google.com%2F">
-
-
-**If you want to contact the developer about GAIA - write here:** osint.technologies@gmail.com
 
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 **README Table of Contents:**
