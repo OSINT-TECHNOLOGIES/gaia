@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='GAIA',
-    version='0.61b',
+    version='0.63b',
     author='OSINT-TECHNOLOGIES',
     author_email='osint.technologies@gmail.com',
     description='Geospatial & Aerial Images Analyser',
@@ -11,7 +11,7 @@ setup(
     install_requires=[
         'ee==0.2',
         'earthengine-api==0.1.392',
-        'mercury==2.3.7',
+        'mercury==2.3.10',
         'colorama==0.4.6',
         'matplotlib==3.6.2',
         'osmnx==1.7.0',
