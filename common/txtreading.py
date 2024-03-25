@@ -35,7 +35,7 @@ def ee_guide_read():
 
 def settings_read():
     try:
-        with open("common//settings.txt", "r") as guide:
+        with open("common//settings.json", "r") as guide:
             mr.Markdown(text = "**CURRENT SETTINGS**")
             line = guide.readline()
             while line:
@@ -46,7 +46,7 @@ def settings_read():
         print(Fore.RED + '[File/directory missing error] -{}'.format(str(error)))
 
 def get_min_value(dataset_name):
-    with open("common//settings.txt", 'r') as file:
+    with open("common//settings.json", 'r') as file:
         lines = file.readlines()
 
     start_index = lines.index(f"*{dataset_name}*\n")
@@ -56,7 +56,7 @@ def get_min_value(dataset_name):
     return min_value
 
 def get_max_value(dataset_name):
-    with open("common//settings.txt", 'r') as file:
+    with open("common//settings.json", 'r') as file:
         lines = file.readlines()
 
     start_index = lines.index(f"*{dataset_name}*\n")
@@ -66,7 +66,7 @@ def get_max_value(dataset_name):
     return max_value
 
 def get_gamma_value(dataset_name):
-    with open("common//settings.txt", 'r') as file:
+    with open("common//settings.json", 'r') as file:
         lines = file.readlines()
 
     start_index = lines.index(f"*{dataset_name}*\n")
