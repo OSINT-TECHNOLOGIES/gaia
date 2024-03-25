@@ -8,7 +8,7 @@
 > [!NOTE]
 > Please note that this program solution is currently in BETA stage and some details are potentially to be changed, more functionality may be added soon or later.
 >
-> Current version: 0.63b
+> Current version: 0.63b_hotfix1
 
 > [!TIP]
 > You can find some useful info about GAIA aspects in wiki: https://github.com/OSINT-TECHNOLOGIES/gaia/wiki
