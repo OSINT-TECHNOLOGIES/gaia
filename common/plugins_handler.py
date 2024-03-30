@@ -1,5 +1,6 @@
 from folium import plugins
 from folium.plugins import Draw
+import folium
 
 def geocoder_init(m):
     plugins.Geocoder(
@@ -29,3 +30,9 @@ def additional_basemaps_init(m):
     m.add_basemap('Esri Topo World')
     m.add_basemap('Esri National Geographic')
     m.add_basemap('Esri Shaded Relief')
+
+def click_for_coords(m):
+    m.add_child(folium.ClickForLatLng())
+
+def marker_on_click(m):
+    m.add_child(folium.ClickForMarker())
