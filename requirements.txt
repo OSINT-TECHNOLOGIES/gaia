@@ -2,7 +2,6 @@ ee==0.2
 earthengine-api==0.1.392
 mercury==2.3.10
 colorama==0.4.6
-matplotlib==3.6.2
 osmnx==1.7.0
 contextily==1.4.0
 folium==0.16.0
