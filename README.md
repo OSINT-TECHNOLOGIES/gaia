@@ -8,7 +8,7 @@
 > [!NOTE]
 > Please note that this program solution is currently in BETA stage and some details are potentially to be changed, more functionality may be added soon or later.
 >
-> Current version: 0.63b_hotfix1
+> Current version: 0.64b
 
 > [!TIP]
 > You can find some useful info about GAIA aspects in wiki: https://github.com/OSINT-TECHNOLOGIES/gaia/wiki
@@ -105,12 +105,11 @@ Basically you don't need to do any things out of GAIA to start researching using
 2) earthengine-api==0.1.392
 3) mercury==2.3.7
 4) colorama==0.4.6
-5) matplotlib==3.6.2
-6) osmnx==1.7.0
-7) contextily==1.4.0
-8) folium==0.16.0
-9) future==0.18.3
-10) eefolium==0.2.0
-11) ipyleaflet==0.18.2
+5) osmnx==1.7.0
+6) contextily==1.4.0
+7) folium==0.16.0
+8) future==0.18.3
+9) eefolium==0.2.0
+10) ipyleaflet==0.18.2
 
-**Network:** High-Speed Broadband Internet connection for good experience with datasets downloading
+*Network:** High-Speed Broadband Internet connection for good experience with datasets downloading
